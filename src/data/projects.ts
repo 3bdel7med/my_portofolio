@@ -20,8 +20,8 @@ export const projects: Project[] = [
     featured: true,
     icon: '⚡',
     accent: 'from-sky-500 to-indigo-600',
-    imageUrl: '/public/images/optiquery.jfif',
-    githubUrl: GH
+    imageUrl: '/images/optiquery.jfif',
+    githubUrl: 'https://github.com/3bdel7med/optiquery_ai'
   },
   {
     id: 2,
@@ -39,9 +39,9 @@ export const projects: Project[] = [
     period: 'May 2026 – Jun 2026',
     featured: true,
     icon: '🛒',
-    imageUrl: '/public/images/bazarrio.jfif',
+    imageUrl: '/images/bazarrio.jfif',
     accent: 'from-emerald-500 to-teal-600',
-    githubUrl: GH
+    githubUrl: 'https://github.com/3bdel7med/Bazzario-Multi_vendor_ecommerce'
   },
   {
     id: 3,
@@ -59,9 +59,9 @@ export const projects: Project[] = [
     period: 'Apr 2026 – Jun 2026',
     featured: true,
     icon: '💬',
-    imageUrl: '/public/images/nexus.jfif',
+    imageUrl: '/images/nexus.jfif',
     accent: 'from-violet-500 to-fuchsia-600',
-    githubUrl: GH
+    githubUrl: 'https://github.com/3bdel7med/ChatApp'
   },
   {
     id: 4,
@@ -73,10 +73,10 @@ export const projects: Project[] = [
     tags: ['Laravel', 'Gemini AI', 'Blade', 'Tailwind CSS', 'Open Source'],
     category: 'Package',
     period: '2026',
-    imageUrl: '/public/images/sential.jfif',
+    imageUrl: '/images/sential.jfif',
     icon: '🛡️',
     accent: 'from-amber-500 to-orange-600',
-    githubUrl: GH
+    githubUrl: 'https://github.com/3bdel7med/sentinel-ai'
   },
   {
     id: 5,
@@ -88,7 +88,7 @@ export const projects: Project[] = [
     tags: ['Laravel', 'MySQL', 'Async HTTP', 'Open Source'],
     category: 'Package',
     period: '2026',
-    imageUrl: '/public/images/optiquery.jfif',
+    imageUrl: '/images/optiquery.jfif',
     icon: '📦',
     accent: 'from-cyan-500 to-blue-600',
     githubUrl: GH
@@ -108,9 +108,9 @@ export const projects: Project[] = [
       'Secure checkout process with validation and error handling'
     ],
     icon: '💊',
-    imageUrl: '/public/images/el-sfaa.jfif',
+    imageUrl: '/images/el-sfaa.jfif',
     accent: 'from-rose-500 to-pink-600',
-    githubUrl: GH
+    githubUrl: ''
   },
   {
     id: 7,
@@ -127,7 +127,7 @@ export const projects: Project[] = [
       'Strict vote integrity with unique voter constraints',
       'Admin dashboard for managing elections and results'
     ],
-    imageUrl: '/public/images/svs.jfif',
+    imageUrl: '/images/svs.jfif',
     accent: 'from-indigo-500 to-purple-600',
     githubUrl: 'https://github.com/3bdel7med/Voting_system'
   }
