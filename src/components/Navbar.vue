@@ -52,7 +52,17 @@ const toggleMobileMenu = () => {
         </RouterLink>
       </nav>
 
-    
+      <!-- Right Actions (Theme Toggle & Mobile Menu Button) -->
+      <div class="flex items-center gap-4">
+        <!-- Theme Toggle Button -->
+        <button 
+          @click="themeStore.toggleTheme"
+          class="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-sky-400 transition-colors"
+          aria-label="Toggle theme"
+        >
+          <span v-if="themeStore.isDark">☀️</span>
+          <span v-else>🌙</span>
+        </button>
 
         <!-- Mobile Menu Hamburger Button -->
         <button 
